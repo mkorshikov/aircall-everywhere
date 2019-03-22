@@ -39,7 +39,7 @@ module.exports = () => {
 
   _output = {
     path: path.resolve(__dirname, '../../dist'),
-    filename: 'main.[hash].js'
+    filename: 'aircall-everywhere.min.js'
   };
 
   _mode = 'production';
