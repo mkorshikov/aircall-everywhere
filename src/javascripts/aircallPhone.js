@@ -272,4 +272,4 @@ class AircallPhone {
   }
 }
 
-window.AircallPhone = AircallPhone;
+export default AircallPhone;

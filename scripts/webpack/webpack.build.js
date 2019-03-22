@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const MinifyPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = () => {
   let _mode = null;
@@ -19,7 +18,7 @@ module.exports = () => {
     extensions: ['.js']
   };
 
-  const _plugins = [new MinifyPlugin()];
+  const _plugins = [];
 
   const _module = {
     rules: [
